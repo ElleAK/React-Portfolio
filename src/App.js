@@ -2,6 +2,9 @@ import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import ContactForm from './components/Contact';
+import Portfolio from './components/Portfolio';
+
+
 import './App.css';
 
 function App() {
@@ -13,11 +16,9 @@ function App() {
       ></Nav>
       <main>
 
-          <>
             <About></About>
-          </>
-
-          <ContactForm></ContactForm>
+            <Portfolio></Portfolio>
+            <ContactForm></ContactForm>
 
       </main>
     </div>
