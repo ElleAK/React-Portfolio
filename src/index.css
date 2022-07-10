@@ -4,12 +4,12 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #f3a847;
-  --tertiary: #b12704;
-  --light: #fafafa;
-  --dark: #000000;
-  --darker: #111111;
+  --primary: #262431;
+  --secondary: #484263;
+  --tertiary: #34375e;
+  --light: #faf9f9;
+  --dark: #9683ff4b;
+  --darker: #171718;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -28,13 +28,13 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
+  background: var(--darker);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 h1,
@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
