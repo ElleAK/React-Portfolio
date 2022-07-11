@@ -18,7 +18,7 @@
   #### Lindsey Kelly
 
   ## Deployed Site:
-  ####  
+  #### https://elleak.github.io/React-Portfolio/
 
   ## License: ![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)
   #### https://opendatacommons.org/licenses/pddl/
