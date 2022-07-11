@@ -9,7 +9,7 @@ import coverImage from '../../assets/cover/cover-image.jpg';
 function About () {
     return (
         <section>
-            <h1>About Me</h1>
+            <h2>About Me</h2>
             <img src={coverImage} style={{ width: "50%" }} alt="cover" />
         
         <div>

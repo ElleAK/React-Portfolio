@@ -3,11 +3,6 @@ import React, { useState } from 'react';
 // A single Project component that will be used multiple 
 //times in the Portfolio section
 
-// WHEN I am presented with the Portfolio section
-// THEN I see titled images of six of the developer’s
-//  applications with links to both the deployed applications 
-//  and the corresponding GitHub repository
-
 //For each project you feature in your portfolio, you should include the following:
 // •	An image of the deployed application (either a GIF or a screenshot)
 // •	The title of the project
@@ -52,7 +47,33 @@ const ProjectList = () => {
 ]);
   return (
     <div>
-
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <h4>Note Taker App</h4>
+          {/* <a href=''/> */}
+        </li>
+        {/* <li>
+          <h4></h4>
+          <a href=''/>
+        </li>
+        <li>
+          <h4></h4>
+          <a href=''/>
+        </li>
+        <li>
+          <h4></h4>
+          <a href=''/>
+        </li>
+        <li>
+          <h4></h4>
+          <a href=''/>
+        </li>
+        <li>
+          <h4></h4>
+          <a href=''/>
+        </li> */}
+      </ul>
     </div>
   )
 };

@@ -7,13 +7,7 @@ import React from "react";
 // THEN I am presented with the corresponding section below the navigation
 //  without the page reloading and that title is highlighted
 
-
-function Nav(props) {
-  const {
-    contactSelected,
-    setContactSelected,
-  } = props;
-
+function Nav() {
 
   return (
     <main>
@@ -26,30 +20,27 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           <li className="my-2 mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+            <a data-testid="about" href="#about">
               About      
             </a>
           </li>
           <li className="my-2 mx-2">
-            <a data-testid="portfolio" href="#portfolio" onClick={() => setContactSelected(false)}>
+            <a data-testid="portfolio" href="#portfolio">
               Portfolio      
             </a>
           </li>
           <li className="my-2 mx-2">
-            <a data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}>
+            <a data-testid="resume" href="#resume">
               Resume      
             </a>
           </li>
-          <li className={`my-2 mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+          <li className="my-2 mx-2" >
+          <span>Contact</span>
           </li>
         </ul>
       </nav>
     </header>
-   
-    <footer>
-
-    </footer>
+  
      </main>
   );
 }

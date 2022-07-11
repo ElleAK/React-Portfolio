@@ -4,17 +4,19 @@ import About from './components/About';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Projects';
 import Resume from './components/Resume';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <div>
-      <header>
+      <Header>
       <Nav
         // contactSelected={contactSelected}
         // setContactSelected={setContactSelected}
       ></Nav>
-      </header>
+      </Header>
       <main>
 
             <About></About>
@@ -24,7 +26,7 @@ function App() {
             
 
       </main>
-      <footer></footer>
+      <Footer></Footer>
     </div>
   );
 }
