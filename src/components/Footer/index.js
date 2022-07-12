@@ -7,20 +7,11 @@ import React from 'react';
 function Footer() {
 
     return(
-    <div>
-        <footer>
-            <ul>
-                <li>
-                    <h3>LinkedIn</h3>
-                {/* <a href='https://www.linkedin.com/in/lindsey-kelly-ab47b47b/'/> */}
-                </li>
-                <li>
-                    <h3>GitHub</h3>
-                {/* <a href='https://github.com/ElleAK'/> */}
-                </li>
-            </ul>
-        </footer>
-    </div>
+    <footer className='fixed-bottom'>
+        <a href='https://www.linkedin.com/in/lindsey-kelly-ab47b47b/'><img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn" className="icon"/></a>
+        <a href='https://github.com/ElleAK'><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Github" className="icon"/></a>
+    </footer>
+
     )
 }
 
