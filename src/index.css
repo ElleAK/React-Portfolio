@@ -5,10 +5,10 @@ main {
 }
 :root {
   --primary: #262431;
-  --secondary: #484263;
-  --tertiary: #34375e;
+  --secondary: #8b80b9;
+  --tertiary: #55598d;
   --light: #faf9f9;
-  --dark: #9683ff4b;
+  --dark: #9683ff4f;
   --darker: #171718;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -288,4 +288,31 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.github {
+  width: 100px;
+  height: 100px;
+  background-image: url(/src/assets/small/GitHub-logo.png);
+  background-size: 100%;
+  background-color: #171718;
+}
+.card {
+  color:#8b80b9;
+  width: 50%;
+  text-align: center;
+  border: 2px solid black;
+}
+.projectGithub {
+  width: 150px;
+  height: 150px;
+  color:#8b80b9;
+}
+
+.linkedin {
+  width: 100px;
+  height: 100px;
+  background-image: url(/src/assets/small/linkedin.png);
+  background-size: 100%;
+  background-color: #171718;
 }
